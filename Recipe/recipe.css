@@ -1,0 +1,78 @@
+
+h1 {
+  color: orangered;
+  font-family: 'Unica One', cursive;
+  padding-top: 30px; 
+  font-size: 50px;
+  text-align: center;
+  text-decoration: overline;
+}
+
+h2 {
+  font-family: 'Saira Condensed', sans-serif;
+  color: orangered;
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: center;}
+
+
+#facts {
+  margin-bottom: -100px;
+}
+
+
+
+.lists{
+  border: 2px dashed black;
+  border-width: 6px;
+  display: inline-flex;
+  margin-left: 35px;
+
+}
+
+#cookie {
+  float: right;
+  margin-top: -40px;
+  margin-right: 100px;
+}
+
+.lists2 {
+  text-align: left;
+}
+
+#direction{
+  text-align: left;
+  margin-left: 130px;
+  padding-top: 50px;
+}
+
+.group {
+  border-bottom: 2px solid black;
+  padding-bottom: 70px;
+  }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 130px;
+}
+
+ol{
+  padding-top: -30px;
+
+}
+
+.finallist{
+  display: inline;
+  margin: 0 auto;
+  background-image: url();
+}
+
+ul{
+  font-family: 'Quicksand', sans-serif;
+  color: orangered;
+  margin: 50px;
+}
+
+
+
