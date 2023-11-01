@@ -1,256 +1,133 @@
-body{
-    background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
-}
-
-#icon{
-    display: block;
-    margin: 0 auto;
-}
-
-#fpv{
-    padding-top: 100x;
-    padding-left: 180px;
-}
-.head{
-    text-align: center;
-    font-family: 'Handjet', cursive;
-    font-size: 59px;
-    text-decoration: overline;
-    margin-bottom: 80px;
-    color: #BC13FE;
-    margin-top: 10px;
-    padding-top: 30px;
-    z-index: 1;
+#wrapper{
+    max-width: 1400px;
+    max-height: 1000px;
+    
     
 }
 
-#intro{
-   max-width: 600px;
-   padding-top: 50px;
+header{
+    border: 5rem;
+    background: linear-gradient(90deg,rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 43%), url(thewestwing.jpg) no-repeat top right;
+    margin: auto;
+    color: white;
 }
 
-
-p{
-    font-size: 23px;
-    font-family: 'Saira Condensed', sans-serif;
-    color: black;
-    letter-spacing: 2px;
+.lead{
+    width: 380px;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 28px;
+    font-family: 'Manrope', sans-serif;
 }
-
-.content{
-    max-width: 960px;
-    margin-left: 100px; 
-    font-weight: 400;
-    margin-top: -80px;
-}
-
 
 #logo{
-    display: block; /* theses two "display" and "margin" make images align in the center */
-    margin: 0 auto;
-    margin-top: -100px;
-
-}
-
-.soullogos{
-    display: flex; /* it makes it in a row */
-    justify-content: center; 
-    align-items: center; /* Vertically align images in the center */
-    margin-top: -80px;
-    
-}
-
-.soullogos img{
-    margin: 10px; /* creates spacing between two images */
+    padding-left: 45px;
+    padding-top: 38px;
 }
 
 
 
-.cover{
-    background-image: url(1.png);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 700px;
+h1{
+    padding-top: 60px;
+    padding-left: 55px;
 }
 
-#aboutmehead{
-    text-align: left;
-    font-family: 'Handjet', cursive;
-    margin-top: 60px;
-    margin-left: 120px;
-    font-size: 35px;
-}
-
-#aboutme{
-    text-align: left;
-    font-family: 'Handjet', cursive;
-    font-size: 25px;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-
-#drone{
-    float: right;
-    padding-left: 20px;
-    padding-right: 175px;
-    padding-bottom: 75px;
-    padding-top: 20px;
-}
-
-.active {
-    background-color: lightslategray;
-}
-
-#contact{
-    font-family: 'Handjet', cursive;
-    text-align: center;
-    font-size: 55px;
-}
-
-h3{
-    font-family: 'Handjet', cursive;
-    display: inline;
-    font-size: 25px;
-    letter-spacing: 8px;
-}
-
-.mail{
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-#email{
-    color: orangered;
-}
-
-#heads{
-    display: block;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-#learn{
-    font-family: 'Handjet', cursive;
-    font-size: 35px;
-}
-
-.letters{
-    margin: 200px;
-    margin-top: auto;
-    padding-top: 45px;
-}
-
-.navi {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-right: 10px;
-    padding-top: 10px;
- }
-
- .navi a{
-    margin: 0 6px;
- }
-
-.dropdown {
-    font-family: 'Handjet', cursive;
-    font-size: 25px;
-    letter-spacing: 6px;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    border: none;
-    background-color: whitesmoke;
-    min-width: 250px;
-    z-index: 1;
-}
-
-.dropdown-content a {
+#border{
+    border: 1px solid whitesmoke;
     color: black;
-    padding: 20px 20px;
-    text-decoration: none;
-    display: block;
-    font-family: 'Handjet', cursive;
-    font-size: 25px;
-    text-align: left;
-    letter-spacing: 6px;
-}
-
-.dropdown-content a:hover {
-    background-color: orangered;
-}
-
-.navi:hover .dropdown-content {
-    display: block;
-}
-
-#film{
-    font-family: 'Handjet', cursive;
-    font-size: 60px;
-    letter-spacing: 6px;
-    margin-left: 100px;
-}
-
-.folder{
-    border: 2px solid whitesmoke;
+    border-width: 3px;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-left: 80px;
+    margin-bottom: 40px;
     padding: 20px;
-    margin-left: 100px;
-    width: 900px;
-
-}
-
-.folder-button{
-    color: whitesmoke;
-    background-color: black;
-    padding: 80px 80px;
-    cursor: pointer;
-    font-family: 'Handjet', cursive;
-    font-size: 40px;
+    padding-left: 29px;
+    padding-right: 29px;
     
 }
 
-.folder-content{
-    display: none;
-    margin: 0 auto;
-    padding: 15px;
+nav{
+    border: 5px solid gray;
+    background-color: gray;
+    padding: 17px;
 }
 
-.folder-content img{
-    max-width: 100%;
-    height: auto;
-    margin: 5px;
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-size-adjust: 18px;
+    font-family: 'Manrope', sans-serif;
 }
 
-.show{
-    display: inline-block;
+a:hover {
+    color: whitesmoke;
+}
 
+.col{
+    font-family: 'Manrope', sans-serif;
+    width: 530px;
+    padding-left: 50px;
+}
+
+h2{
+    padding-left: 50px;
+    font-family: 'Cinzel', serif;
+    padding-top: 30px;
+    font-size: 35px;
 }
 
 
-
-
-
-
-
-/* CSS to initially hide elements and define animation */
-.animate-slide {
-    opacity: 0;
-    transform: translateX(-50px); /* Start off-screen to the left */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+.group1{
+    float: left;
+    
 }
 
-/* CSS to slide elements in when the .slide-in class is added */
-.slide-in {
-    opacity: 1;
-    transform: translateX(0); /* Slide in to the original position */
+.group2{
+    float: right;
+}
+
+footer{
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    clear: both;
+  
+    font-family: 'Manrope', sans-serif;
+
+}
+
+p {
+    width: 80%;
+}
+
+.epi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the start (left) */
+    max-width: 1400px;
+    margin: 0 auto; 
+    margin-left: 46px;
+}
+
+.card {
+    flex: 1; /* Allow each card to grow equally */
+    margin: 10px;
+    padding: 10px; 
+    
+}
+
+
+#s1{
+    margin-left: 60px;
+}
+
+.epi img{
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
