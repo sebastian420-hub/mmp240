@@ -10,8 +10,9 @@
 
 
 #wrapper {
-    padding: 1em;
+    padding: 2em;
     background-color: whitesmoke;
+    width: 100%;
 }
 
 main{
@@ -386,7 +387,7 @@ nav {
         margin: 0 auto;
         margin-left: 330px;
         margin-right: -40px;
-        padding-top: 600px;
+        padding-top: 560px;
         position: relative;
         margin-bottom: 100px;
         
@@ -397,11 +398,14 @@ nav {
         position: relative;
         background-image: url(images/all.jpeg);
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:auto;
         height: 590px;
         border-width: 3.5px;
-        width: 1296px;
+        width: 1200px;
         display: flex;
+
+        justify-content: center;
+        
         padding: 5em;
         border-radius: 20px;
         border-bottom: 2px dashed black;
@@ -411,6 +415,9 @@ nav {
 
         
 
+    }
+    #background{
+        margin: 0 auto;
     }
     .search-programs .search-nav{
     
