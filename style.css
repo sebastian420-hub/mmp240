@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Handjet&family=Hubballi&family=Poppins:wght@200&family=Syncopate&display=swap');
+
+
+
+#wrapper {
+    padding: 1em;
+    background-color: whitesmoke;
+}
+
+main{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#head {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left:10px;
+    left: 0;
+    font-family: 'Darker Grotesque';
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    
+}
+
+
+.h2h2{
+    font-size: 30px;
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: 8px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    font-weight: 560;
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    z-index: 2;
+    
+}
+
+.buttonav {
+    width: 470px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.buttonav p{
+    margin: 0 auto;
+    margin-top: 4px;
+    letter-spacing: 4px;
+    font-size: larger;
+    font-family: 'Darker Grotesque';
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+footer{
+    bottom: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.sub {
+    padding: 20px;
+}
+
+.subTitle{
+    padding-bottom: 20px;
+}
+
+.buttonav img{
+    right: 0;
+}
+
+
+nav {
+    display: none;
+    position: relative;
+    border: 1px solid black;
+    width: fit-content;
+    z-index: 1;
+}
+
+.hero-banner{
+    background-image: url('images/queenscollege.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 12em;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.hero-banner #bannerText{
+    color: Black;
+    top: 125px;
+    width:auto;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+
+}
+
+.sub{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.sub h3{
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: 'Thasadith', sans-serif;
+    line-height: 27px;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.hh{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+    
+    
+}
+
+.sub p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.events p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-top: 20px;
+}
+
+.events h2{
+    padding-top: 20px;
+}
+
+.h2h2{
+    padding: 30px;
+    font-style: bold;
+    font-size: 20px;
+}
+
+
+#design {
+    padding: 2em;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    
+}
+.card{ 
+    width: 15em;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 13px;
+    border-width: 2px;
+    background-color: white;
+    padding: 14px;
+    overflow: scroll;
+}
+
+.card h3{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: 'Thasadith', sans-serif;
+}
+.card h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
+}
+
+.card p{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: larger;
+    line-height: 28px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#cunydesign{
+    width: 280px;
+    height: auto;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.layoutTwo{
+    display: grid;
+    grid-template-rows: 380px 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+    margin: auto 0;
+}
+
+.layoutThree{
+    display: grid;
+    grid-template-rows: 380px 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+    margin: auto 0;
+}
+
+ 
+
+.layoutFour {
+    display: grid;
+    grid-template-rows: 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+}
+
+.layoutFive {
+    display: grid;
+    grid-template-rows: 380px 380px 380px 380x;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+}
+
+
+.layoutSix {
+    display: grid;
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+
+}
+
+.layoutSeven {
+    display: grid;
+    grid-template-rows: 380px 380px 380px 380x;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+}
+
+.layoutEight{
+    display: grid;
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+    margin: auto 0;
+}
+
+.layoutNine{
+    display: grid;
+    grid-template-rows: 380px 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+    margin: auto 0;
+}
+
+.layoutTen{
+    display: grid;
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 30px;
+    margin: auto 0;
+}
+
+
+
+@media (min-width: 700px){
+    #icon{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        border: none;
+        transition: transform 0.3s ease;
+       
+        
+    }
+
+    
+    .hero-banner{
+        background-image: url('images/queenscollege.webp');
+        background-size: 1400px 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 12em;
+        height: 540px;
+        padding: 1em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .hero-banner #bannerText{
+       color: Black;
+       top: 125px;
+       width:auto;
+       font-family: 'Thasadith', sans-serif;
+       font-size: 30px;
+
+    }
+
+    .nav a{
+        transition: transform 0.3s ease;
+    }
+    nav li{
+        display: inline;
+        font-family: 'Darker Grotesque';
+        font-size: 20px;
+        transition: transform 0.3s ease;
+
+    
+    }
+
+    #dd{
+        /* margin-left: -200px; */
+        left: 0;
+    }
+
+    #f{
+        margin-right: -300px;
+    }
+
+    .buttonav{
+        margin-right: -160px;
+        
+    }
+
+    .nav a:hover{
+        font-weight: 580;
+        letter-spacing: 3px;
+        color: blueviolet;
+    }
+    .search-nav{
+        display: flex;
+        border: none;
+        padding: -20px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: 330px;
+        margin-right: -40px;
+        padding-top: 600px;
+        position: relative;
+        margin-bottom: 100px;
+        
+    }
+
+    
+    .search-programs{
+        position: relative;
+        background-image: url(images/all.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 600px;
+        border-width: 3.5px;
+        width: 1380px;
+        display: flex;
+        padding: 5em;
+        border-radius: 20px;
+        border-bottom: 2px dashed black;
+        padding-bottom: 100px;
+        margin-bottom: 150px;
+        
+
+        
+
+    }
+    .search-programs .search-nav{
+    
+        padding-bottom: 30px;
+        display: inline-block;
+        
+
+    }
+
+    .search-nav .search-dropdown{
+        padding-left: -800px;
+        color: white;
+        font-weight: 800;
+        font-size: larger;
+    }
+    .search-dropdown a:hover{
+        color: orangered;
+    }
+  
+    .buttonav {
+        width: 200px;
+        display: flex;
+    }
+    .layout{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 300px;
+    
+    }
+
+    .card img{
+       padding-top: -20px;
+       width: 330px;
+       height: auto;
+       max-width: fit-content;
+    }
+    
+    .card{ 
+        width: 24em;
+        height: 23em;
+        border: 1px solid black;
+        border-radius: 9px;
+        border-width: 2px;
+        background-color: white;
+        padding: 26px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: scroll;
+    }
+
+    .card:hover {
+        transform: scale(1.14); 
+        box-shadow: 1px 1px 20px black;
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+
+    .card h3{
+        font-size: 15px;
+        padding-bottom: 10px;
+        font-family: 'Thasadith', sans-serif;
+    }
+    .card h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        
+    }
+
+    .card p{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: larger;
+        line-height: 28px;
+
+    }
+
+    #cunydesign{
+        width: 210px;
+        height: auto;
+    }
+
+    .drop-down{
+        padding-left: 20px;
+    }
+    .sketch {
+        width: 80px;
+        height: 250px;
+        margin-top: -50px;
+        margin-left: -50px;
+        position: relative;
+
+    }
+    #sketch-container {
+        width: 100px;
+        margin-left: 500px;
+
+        
+       
+    }
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+     
+    }
+    #head{
+        max-width: 1450px;
+        padding-left: 160px;
+        padding-bottom: 460px;
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Thasadith', sans-serif;
+        letter-spacing: 6px;
+        font-weight: 800;
+        transition: transform 0.3s ease; 
+    }
+    #head:hover{
+        transform:matrix(1,0,0,1,0,0) scale(1.1);
+    }
+
+    .h2h2{
+        font-size: 30px;
+        font-family: 'Thasadith', sans-serif;
+        letter-spacing: 8px;
+        padding-left: 50px;
+        padding-bottom: 180px;
+        margin-top: -100px;
+      
+        font-weight: 560;
+        
+
+    }
+
+    .sub{
+        padding-bottom: 10px;
+        padding-top: 20px;
+      
+    }
+
+    
+
+    .sub h3{
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+        font-family: 'Thasadith', sans-serif;
+        line-height: 27px;
+        font-size: larger;
+        font-weight: 1000;
+    }
+    
+    .hh{
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-family: 'Thasadith', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-bottom: 20px;
+
+        
+        
+    }
+
+    .sub p{
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
+
+    .events p{
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-family: 'Darker Grotesque', sans-serif;
+        padding-top: 20px;
+    }
+
+    video{
+        max-width: 100%;
+        padding-top: 150px;
+        padding-left: -40px;
+        border-radius: 20px;
+        height: auto;
+        pointer-events: none;
+        width: 900px;
+        position: relative;
+    }
+    
+    video::-webkit-media-controls-start-playback-button {
+        display: none !important;
+      }
+      
+
+    
+
+
+   
+    
+}
+
+@media (min-width: 600px){
+    .layoutTwo{
+        display: grid;
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 30px;
+        grid-row-gap: 100px;
+    }
+
+    .layoutThree{
+        display: grid;
+        grid-template-rows: 320px 320px;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 30px;
+        grid-row-gap: 100px;
+    }
+
+    .layoutFour{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 30px;
+        
+    }
+
+    .layoutFive{
+        display: grid;
+        grid-template-rows: 180px 180px 180px 180px;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 30px;
+        grid-row-gap: 230px;
+    }
+
+    .layoutSix{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-row-gap: 100px;
+    }
+
+    .layoutSeven {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 30px;
+        grid-row-gap: 100px;
+    }
+
+    .layoutEight {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 30px;
+        grid-row-gap: 100px;
+
+    }
+
+    .layoutNine {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 180px 180px;
+        grid-gap: 30px;
+        grid-row-gap: 260px;
+
+    }
+
+    .layoutTen{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 180px 180px;
+        grid-gap: 30px;
+        grid-row-gap: 260px;
+
+    }
+   
+  
+     
+}
+
+@media (max-width: 700px) {
+    #sketch-container {
+      display: none; 
+    }
+  }
+
+/* #drop-downOne{
+    position: absolute;
+    z-index: 1000;
+} */
+
+#icon{
+    float: right;
+}
+
+
+nav li{
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-dropdown {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.search-dropdown li{
+    margin-left: 35px;
+    padding: 15px;
+    margin-top: 8px;
+    font-size: larger;
+    font-family: 'Darker Grotesque';
+    letter-spacing: 2.4px;
+    font-weight: 300;
+
+}
+
+
+
+
+
+.search-nav li{
+    padding: 8px;
+}
+
+.search-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-programs .search-nav{
+    padding-bottom: 10px;
+}
+.search-programs{
+    position: relative;
+}
+
+
+
+/* .border{
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+} */

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design @ CUNY</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Poppins:wght@100&family=Thasadith&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div id="wrapper">
+        <header>
+          <h1><a href="index.html"><img src="images/cunydesign.png" alt="cuny" id="cunydesign"></a></h1>
+
+          <div class="drop-down">
+            <button><img id="icon" alt="icon" src="images/icon.png" width="40px"></button>
+              <nav id="nav" class="nav">
+                <ol>
+                  <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                  <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                  <li><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Apply</a></li>
+                </ol>
+                <form action="" method="" class="">
+                  <input type="search" name="search" placeholder="search">
+                  <button>Submit</button>
+                </form>
+
+              </nav>
+                
+          </div>
+          <script>
+            let button = true;
+  
+  function onOff() {
+      const navElement = document.getElementById('nav');
+     
+  
+      // Check if the viewport width is less than or equal to 700px
+      if (window.innerWidth <= 700) {
+          
+          if (button) {
+              navElement.style.display = 'block';
+          
+          } else {
+              navElement.style.display = 'none';
+              
+          }
+      } else {
+          // For screens wider than 700px, always show the navigation
+          navElement.style.display = 'flex';
+      }
+  
+      
+      button = !button;
+  }
+  
+  
+  document.getElementById('icon').addEventListener('click', onOff);
+  
+  // Adjust styles when the window is resized
+  window.addEventListener('resize', onOff);
+  
+  
+  </script>
+          
+        </header>
+    <main>
+          
+        <div class="search-programs">
+          
+            
+            <div class="search-nav">
+              <button class="buttonav" data-target="drop-downten"><p>Discipline</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downten">
+                <ol>
+                  <li><a href="digitaldesign.html">Digital Design</a></li>
+                  <li><a href="animation.html">Animation</a></li>
+                  <li><a href="industrialdesign.html">Industrial Design</a></li>
+                </ol>
+              </div>
+            </div>
+            <div class="search-nav">
+              <button class="buttonav" data-target="drop-downeleven"><p>Degree</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downeleven">
+                <ol>
+                  <li><a href="associate.html">Associate</a></li>
+                  <li><a href="bachelor.html">Bachelor</a></li>
+                 </ol>
+              </div>
+            </div>
+            <div class="search-nav">
+              <button class="buttonav" data-target="drop-downtwelve"><p>Borough</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downtwelve">
+                <ol>
+                  <li><a href="manhattan.html">Manhattan</a></li>
+                  <li><a href="brooklyn.html">Brooklyn</a></li>
+                  <li><a href="queens.html">Queens</a></li>
+                  <li><a href="bronx.html">Bronx</a></li>
+                </ol>
+              </div>
+            </div>
+        </div>
+          <h2 class="h2h2">Industrial Design</h2>
+        <div class="layoutFour">
+          <a href="https://www.laguardia.edu/majors/industrial-design/" target="_blank" class="link">
+            <div class="card">
+               <img src="images/la.jpg"  width="330px" height="170px" alt="digitalDesign">
+               <div class="card-content">
+                <h3>LaGuardia Community College</h3>
+                <h2>Industrial Design</h2>
+                <p>The Industrial Design program provides students a foundation experience in the necessary skills to begin a career in Computer Assisted Design (CAD), Model making, Product Design and Fabrication or transfer to a four-year institution.</p>
+                
+                
+               </div>
+            </div>
+          </a>  
+          <a href="https://www.citytech.cuny.edu/mechanical/industrial-technology-aas.aspx" target="_blank" class="link">
+            <div class="card">
+              <img src="images/citytech.jpeg"  width="330px" height="170px" alt="digitalDesign">
+              <div class="card-content">
+                <h3>New York City College of Technology</h3>
+                <h2>Industrial Design</h2>
+                <p>The Industrial Design Technology (IND) program is designed to provide students with a wide variety of skills enabling them to utilize a number of 2D, 3D and animation/simulation software packages in several diverse fields.</p>
+               
+            
+              </div>
+              
+            </div>
+          </a>
+        </div>
+    </main>
+    <footer>Copyright 2020 The City University of New York</footer>
+
+</div>
+<script src="clicks.js"></script>
+</body>
+</html>

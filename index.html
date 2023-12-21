@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design @ CUNY</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Poppins:wght@100&family=Thasadith&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div id="wrapper">
+        <header>
+          <h1><a href="index.html"><img src="images/cunydesign.png" alt="cuny" id="cunydesign"></a></h1>
+
+          <div class="drop-down">
+            <button><img id="icon" alt="icon" src="images/icon.png" width="40px"></button>
+              <nav id="nav" class="nav">
+                <ol>
+                  <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                  <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                  <li><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Apply</a></li>
+                </ol>
+                <form action="" method="" class="">
+                  <input type="search" name="search" placeholder="search">
+                  <button>Submit</button>
+                </form>
+
+              </nav>
+                
+          </div>
+          <style>
+        .search-navs{
+        
+        border: none;
+        padding: -20px;
+        padding-bottom: 100px;
+        display: grid;
+        grid-template-rows: 1px;
+
+        padding-top: 150px;
+        position: relative;
+        padding-left: 990px;
+        
+        }  
+       .search-programss{
+        background-color: rgb(26, 84, 164);
+        height: 900px;
+        position: relative;
+        border-width: 3.5px;
+        width: 1380px;
+        display: grid;
+        grid-template-rows:1px;
+
+        
+        padding: 5em;
+        margin-bottom: 100px;
+        padding-bottom: 400px;
+        
+        border-radius: 6px;
+        
+        border-bottom: 2px dashed black;
+        }
+        .search-programss .search-navs{
+    
+        padding-bottom: 30px;
+        display: block;
+    
+
+}
+
+#head{
+        max-width: 1450px;
+        padding-left: 160px;
+        padding-top: 100px;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: 'Thasadith', sans-serif;
+        letter-spacing: 6px;
+        font-weight: 800;
+        transition: transform 0.3s ease; 
+    }
+
+.search-navs .search-dropdown{
+    padding-left: -800px;
+}
+
+.search-navs li{
+    padding: 8px;
+}
+
+.search-navs a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+          </style>
+<script>
+          let button = true;
+
+function onOff() {
+    const navElement = document.getElementById('nav');
+   
+
+   
+    if (window.innerWidth <= 700) {
+        
+        if (button) {
+            navElement.style.display = 'block';
+        
+        } else {
+            navElement.style.display = 'none';
+            
+        }
+    } else {
+       
+        navElement.style.display = 'flex';
+    }
+
+    
+    button = !button;
+}
+
+
+document.getElementById('icon').addEventListener('click', onOff);
+
+
+window.addEventListener('resize', onOff);
+
+
+</script>
+          
+        </header>
+        <main>
+          
+          <div class="search-programss">
+            
+            <h1 id="head">Find a Design Program</h1>
+            <video autoplay loop muted>
+              <source src="cuny.mp4" type="video/mp4">
+            </video>
+            <div class="search-navs">
+              <button class="buttonav" data-target="drop-downOne"><p>Discipline</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downOne">
+                <ol>
+                  <li><a href="digitaldesign.html">Digital Design</a></li>
+                  <li><a href="animation.html">Animation</a></li>
+                  <li><a href="industrialdesign.html">Industrial Design</a></li>
+                </ol>
+              </div>
+            </div>
+            <div class="search-navs">
+              <button class="buttonav" data-target="drop-downTwo"><p>Degree</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downTwo">
+                <ol>
+                  <li><a href="associate.html">Associate</a></li>
+                  <li><a href="bachelor.html">Bachelor</a></li>
+                </ol>
+              </div>
+            </div>
+            <div class="search-navs">
+              <button class="buttonav" data-target="drop-downThree"><p>Borough</p><img src="images/icon.png" width="20px"></button>
+              <div class="search-dropdown" id="drop-downThree">
+                <ol>
+                  <li><a href="manhattan.html">Manhattan</a></li>
+                  <li><a href="brooklyn.html">Brooklyn</a></li>
+                  <li><a href="queens.html">Queens</a></li>
+                  <li><a href="bronx.html">Bronx</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="hero-banner">
+            <h1 id="bannerText">Queens College Ranked in Top 25 of Best Public Colleges and Universities for Graphic Design in the Nation </h1>
+  
+          </div>
+          <div class="layout">
+            <section class="news">
+            
+              <h2 class="hh">Design News</h2>
+            <div class="sub">
+               <h3>CUNY TV Wins 21st New York Emmy Award For Animated Opening Sequence of 'Shades of U.S.'</h3>
+               <p class="subTitle">April 27, 2020</p>
+
+               <p>The City University of New York won two awards in the 63rd New York Emmy Awards, as CUNY TV and the New York City College of Technology each earned honors in Saturday’s ceremony. The award for CUNY TV brings to 21 the total number of Emmys the station has been awarded by the National Academy of Television Arts & Sciences New York Chapter.</p>
+            </div>
+              
+
+            <div class="sub">
+               <h3>CUNY Expands Digital Skills Curriculum and Creates Student Pipeline for Tech Jobs</h3>
+               <p class="subTitle">October 28, 2019</p>
+
+               <p>The City University of New York has significantly expanded its digital skills curriculum as part of a broad-based effort to produce a steady pipeline of diverse, adaptable, critical thinkers who can thrive in a workplace environment that is increasingly reliant on advanced digital technologies across most sectors of the economy. Another aim of this initiative is to encourage traditionally underrepresented groups to take up tech-focused areas of study.</p>
+
+            </div>
+              
+
+  
+            </section>
+            <section class="events">
+              <h2 class="hh">Events</h2>
+              <img alt="design" id="design" src="images/design.jpg"  width="450px" height="400px">
+              <h3 id="events">Virtual Digital Design showcase day</h3>
+              <p>Date: June 18,2020</p>
+              <p>Time: 2:00pm - 4:00pm</p>
+              <p>College: Bronx Community College</p>
+  
+            </section>
+          </div>
+          
+        </main>
+        
+        <footer>Copyright 2020 The City University of New York</footer>
+
+    </div>
+  <script src="clicks.js"></script>
+    
+  </body>
+</html>
