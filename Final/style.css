@@ -391,9 +391,9 @@ nav {
         background-image: url(images/all.jpeg);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 600px;
+        height: 590px;
         border-width: 3.5px;
-        width: 1150px;
+        width: 960px;
         display: flex;
         padding: 5em;
         border-radius: 20px;
