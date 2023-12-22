@@ -106,15 +106,7 @@ nav {
     z-index: 1;
 }
 
-.hero-banner{
-    background-image: url('images/queenscollege.webp');
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 12em;
-    padding: 1em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
+
 
 .hero-banner #bannerText{
     color: Black;
@@ -222,6 +214,19 @@ nav {
 .link{
     text-decoration: none;
     color: black;
+}
+
+.hero-banner{
+    background-image: url('images/queenscollege.webp');
+    background-size: 500px 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 12em;
+    height: 400px;
+ 
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 
@@ -332,18 +337,6 @@ nav {
         
     }
 
-    
-    .hero-banner{
-        background-image: url('images/queenscollege.webp');
-        background-size: 1400px 700px;
-        width: 100%;
-        background-repeat: no-repeat;
-        min-height: 12em;
-        height: 540px;
-        padding: 1em;
-        margin-bottom: 1em;
-        margin-top: 1em;
-    }
 
     .hero-banner #bannerText{
        color: Black;
@@ -685,18 +678,16 @@ nav {
     .layoutNine {
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 180px 180px;
         grid-gap: 30px;
-        grid-row-gap: 260px;
+        grid-row-gap: 100px;
 
     }
 
     .layoutTen{
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 180px 180px;
         grid-gap: 30px;
-        grid-row-gap: 260px;
+        grid-row-gap: 100px;
 
     }
    
