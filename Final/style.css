@@ -12,6 +12,7 @@
 #wrapper {
     padding: 2em;
     background-color: whitesmoke;
+    background-size: 100%;
     width: 100%;
 }
 
@@ -57,10 +58,11 @@ header {
 }
 
 .buttonav {
-    width: 470px;
+    width: 420px;
     height: 35px;
     border-radius: 15px;
     text-align: center;
+   
 }
 
 .buttonav p{
@@ -153,6 +155,7 @@ nav {
 .sub p{
     letter-spacing: 1px;
     line-height: 20px;
+    width: 400px;
     font-family: 'Darker Grotesque', sans-serif;
 }
 
@@ -231,12 +234,15 @@ nav {
 .layout {
     display: grid;
     grid-template-rows: auto auto;
+    margin-top: -130px;
+   
+
 }
 
 .layoutTwo{
     display: grid;
     grid-template-rows: 380px 380px 380px;
-    grid-template-columns: 47% 47%;
+    grid-template-columns: 48% 48%;
     grid-gap: 30px;
     margin: auto 0;
 }
@@ -446,7 +452,7 @@ nav {
         grid-template-rows: 50% 50%;
         grid-template-columns: 40% 40%;
         grid-column-gap: 300px;
-    
+       
     }
 
     .card img{
@@ -747,6 +753,8 @@ nav a{
 .search-nav li{
     padding: 8px;
 }
+
+
 
 .search-nav a{
     text-decoration: none;
