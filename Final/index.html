@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Poppins:wght@100&family=Thasadith&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Poppins:wght@100&family=Silkscreen&family=Thasadith&display=swap" rel="stylesheet">
   </head>
   <body>
       <div id="wrapper">
@@ -34,78 +34,29 @@
                 
           </div>
           <style>
-    @media (min-width: 700px){
-        .search-navs{
+    @media (min-width: 700px) {
+      #head{
         
-        border: none;
-        padding: -20px;
-        padding-bottom: 100px;
-        display: grid;
-        grid-template-rows: 1px;
-
-        padding-top: 150px;
-        position: relative;
-        padding-left: 990px;
-        
-        }  
-       .search-programss{
-        background-color: rgb(26, 84, 164);
-        height: 900px;
-        position: relative;
-        left:0;
-        border-width: 3.5px;
-        width: 1296px;
-        display: grid;
-        grid-template-rows:1px;
-
-        
-        padding: 5em;
-        margin-bottom: 100px;
-        padding-bottom: 400px;
-        
-        border-radius: 6px;
-        
-        border-bottom: 2px dashed black;
-        }
-        .search-programss .search-navs{
-    
-        padding-bottom: 30px;
-        display: block;
-    
-
-}
-
-#head{
-        max-width: 1450px;
         padding-left: 160px;
-        padding-top: 100px;
         position: absolute;
-        color: whitesmoke;
-        font-size: 30px;
-        font-family: 'Thasadith', sans-serif;
+        color: black;
+        font-size: 2em;
+        font-family: 'Silkscreen', sans-serif;
         letter-spacing: 6px;
         font-weight: 800;
         transition: transform 0.3s ease; 
-    }
-
-  
-
-.search-navs .search-dropdown{
+    }}   
+    .search-navs .search-dropdown{
     padding-left: -800px;
-    text-decoration: none;
+}
+#design{
+
+    object-fit: fill;
+    width: 100%;
+    height: auto;
 }
 
-.hero-banner{
-    background-image: url('images/queenscollege.webp');
-    background-size: 1400px 700px;
-    background-repeat: no-repeat;
-    min-height: 12em;
-    height: 540px;
-    padding: 1em;
-    margin-bottom: 10em;
-    margin-top: 1em;
-}
-    }
+
 
 .search-navs li{
     padding: 8px;
@@ -113,25 +64,11 @@
 
 .search-navs a{
     text-decoration: none;
-    color: Black;
+    color: black;
 }
-
-.search-dropdown a{
-  text-decoration: none;
-
-}
-    
-.search-programss .search-navs{
-    padding-bottom: 10px;
-}
-.search-programss{
-    position: relative;
-}
-
-  
           </style>
 <script>
-          let button = false;
+          let button = true;
 
 function onOff() {
     const navElement = document.getElementById('nav');
@@ -167,13 +104,16 @@ window.addEventListener('resize', onOff);
           
         </header>
         <main>
-          
-          <div class="search-programss">
-            
-            <h1 id="head">Find a Design Program</h1>
+
+          <h1 id="head">Find a Design Program</h1>
+          <div id="videoContainer">
             <video autoplay loop muted>
               <source src="cuny.mp4" type="video/mp4">
             </video>
+          </div>
+          
+          <div class="search-programss">
+            
             <div class="search-navs">
               <button class="buttonav" data-target="drop-downOne"><p>Discipline</p><img src="images/icon.png" width="20px"></button>
               <div class="search-dropdown" id="drop-downOne">
